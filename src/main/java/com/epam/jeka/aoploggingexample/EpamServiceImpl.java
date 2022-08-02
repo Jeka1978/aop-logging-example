@@ -12,6 +12,6 @@ public class EpamServiceImpl implements EpamService {
     @Override
     public void doWork(){
         System.out.println("epam work");
-        danonService.work();
+        danonService.doStuff();
     }
 }

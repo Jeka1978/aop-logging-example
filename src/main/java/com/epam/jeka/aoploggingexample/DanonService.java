@@ -10,7 +10,7 @@ public class DanonService {
     @Autowired
     private DanonService proxy;
 
-    @Benchmark
+    @Benchmark(name = "stuffing phase")
     public void doStuff(){
         System.out.println("STUFF");
     }
